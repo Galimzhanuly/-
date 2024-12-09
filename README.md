@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Нажмите на ссылку, чтобы открыть мой сайт на Wix</h1>
-    <a href="https://https://"jaraskodarbai.wixsite.com/my-site-5"target="_blank">Перейти на мой сайт</a>
+    <a href="https://jaraskodarbai.wixsite.com/my-site-5"target="_blank">Перейти на мой сайт</a>
 </body>
 </html>
