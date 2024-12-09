@@ -1,36 +1,41 @@
 <!DOCTYPE html>
-<html lang="kk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайтқа кіру</title>
+    <title>Сайтқа сілтеме</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
         }
-        button {
+        .button {
+            background-color: #4CAF50;
+            color: white;
             padding: 15px 30px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #4CAF50; /* Жасыл түс */
-            color: white; /* Ақ түс */
-            border: none;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
             border-radius: 5px;
-            transition: background-color 0.3s;
+            border: none;
+            cursor: pointer;
         }
-        button:hover {
-            background-color: #45a049; /* Кнопка үстінде жапсырған кезде */
+        .button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
 <body>
-
-    <button onclick="window.location.href='https://jaraskodarbai.wixsite.com/my-site-5';">Сайтқа кіру</button>
-
+    <h1>Қодарбай Жарас</h1>
+    <p>Төмендегі батырманы басып, сайтқа өтіңіз:</p>
+    <a href="https://jaraskodarbai.wixsite.com/my-site-5" target="_blank" class="button">Сайтқа өту</a>
 </body>
 </html>
